@@ -46,9 +46,9 @@ blockquote {
 
 .nav-link {
   display: inline-block;
-  margin-top: 5px;
+  margin-top: 20px;
   margin-right: 10px;
-  padding: 18px 10px;
+  padding: 5px 10px;
   -webkit-transition: color 450ms ease, border-color 450ms ease, -webkit-transform 200ms ease;
   transition: color 450ms ease, border-color 450ms ease, -webkit-transform 200ms ease;
   transition: color 450ms ease, border-color 450ms ease, transform 200ms ease;
@@ -259,7 +259,7 @@ blockquote {
 
 .mx-640-centered {
   display: block;
-  width: 960px;
+  width: 720px;
   margin-right: auto;
   margin-left: auto;
 }
