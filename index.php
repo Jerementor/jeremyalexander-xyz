@@ -12,11 +12,7 @@ get_header();
 <div class="section-minvh">
 <div class="padding-120">
 <div class="w-container">
-<div class="mx-640-centered">
 <h1 class="heading-4"><?php wp_title(''); ?></h1>
-
-    
-
 <?php $i = 0; ?>
 <?php if ( have_posts() ) : ?>
 <?php while ( have_posts() ) : the_post(); ?>  
@@ -56,7 +52,6 @@ if($i > 0) {
 	echo '</div>';
 }
 ?>
- </div>
 
 <div class="nav-previous alignleft"><?php next_posts_link( 'Older posts' ); ?></div>
 <div class="nav-next alignright"><?php previous_posts_link( 'Newer posts' ); ?></div>
